@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon Search</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!--
+    Explicación del Código
+HTML: Se agregó un campo de texto (input) donde el usuario puede escribir el nombre del Pokémon y un botón para iniciar la búsqueda.
+    
+    
+    
+    -->
+    <div class="container">
+        <h1>Buscador de Pokémon</h1>
+        <input type="text" id="pokemon-name" placeholder="Escribe el nombre del Pokémon">
+        <button onclick="fetchPokemon()">Buscar</button>
+        <div id="pokemon-info" class="pokemon-info">
+            <!-- Los datos del Pokémon aparecerán aquí -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
